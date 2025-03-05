@@ -203,6 +203,7 @@ footer{
             'menu-lat'
             'header'
             'productos'
+            'paginacion'
             'footer';
     }
 
@@ -276,7 +277,15 @@ footer{
         text-align: center;
     }
 
+    .paginacion {
+        grid-area: paginacion;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
     footer {
+        grid-area: footer;
         width: 100%;
         margin: 0;
         margin-right: 0;
