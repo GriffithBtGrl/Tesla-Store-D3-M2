@@ -298,6 +298,10 @@ footer{
 @media (min-width: 992px) {
     body {
         grid-template-columns: 1fr 4fr;
+        grid-template-areas: 
+        'menu-lat header'
+        'menu-lat productos'
+        'footer productos';
     }
 }
 
